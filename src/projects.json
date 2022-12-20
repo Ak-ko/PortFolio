@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "image": "project1fs.jpg",
+    "category": "all",
+    "mainCategory": "fullstack",
+    "projectName": "Blog Wep-app",
+    "github": "https://github.com/Ak-ko/professionalwebdeveloper"
+  },
+  {
+    "id": 2,
+    "image": "project2fe.jpg",
+    "category": "all",
+    "mainCategory": "frontend",
+    "projectName": "Admin Dashboard",
+    "github": "https://github.com/Ak-ko/AdminDashboard"
+  },
+  {
+    "id": 3,
+    "image": "project4fe.jpg",
+    "category": "all",
+    "mainCategory": "frontend",
+    "projectName": "Worth Feet Web Store",
+    "github": "https://github.com/Ak-ko/WorthFeet"
+  },
+  {
+    "id": 4,
+    "image": "project5fs.jpg",
+    "category": "all",
+    "mainCategory": "fullstack",
+    "projectName": "MLBB Diamond Store",
+    "github": "https://github.com/Ak-ko/mlbbdia"
+  },
+  {
+    "id": 5,
+    "image": "project6uiux.jpg",
+    "category": "all",
+    "mainCategory": "uiux",
+    "projectName": "Personal Portfolio",
+    "github": "https://www.figma.com/file/30dmrFBqEmtFzBpDCSoLiG/portfolio?t=ReWHRrDdfGa4Sz7V-0"
+  }
+]

@@ -1,0 +1,149 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@700;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@600&display=swap");
+
+:root {
+  --primary-color: #e4aa48;
+  --primary-dark-color: #35322d;
+  --primary-light-color: #cecac4;
+  --secondary-color: #34343b;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-family: "Open sans", sans-serif;
+  font-size: 69px;
+  color: var(--primary-light-color);
+}
+
+h2 {
+  font-family: "Open sans", sans-serif;
+  font-size: 35px;
+  color: var(--primary-light-color);
+}
+
+h4 {
+  font-family: "Open sans", sans-serif;
+  color: var(--primary-light-color);
+}
+
+h5 {
+  font-family: varient;
+  font-size: 17px;
+  color: var(--primary-color);
+  letter-spacing: 1.5px;
+}
+
+p {
+  font-family: Nunito, sans-serif;
+  font-size: 16px;
+  color: var(--primary-light-color);
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  max-width: 1450px;
+}
+
+.dark__section {
+  background-color: var(--primary-dark-color);
+  height: 100vh;
+}
+
+.light__section {
+  background-color: var(--secondary-color);
+  height: 100vh;
+}
+
+@media screen and (max-width: 1100px) {
+  .dark__section {
+    height: 100%;
+  }
+
+  .light__section {
+    height: 100%;
+  }
+}
+
+.card__component {
+  background: var(--primary-dark-color);
+  color: var(--primary-light-color);
+
+  position: relative;
+  overflow: hidden;
+}
+
+.progress__bar {
+  width: 100%;
+
+  position: absolute;
+  bottom: -50px;
+  left: 0;
+
+  height: 15px;
+  opacity: 0;
+
+  transition: all 0.5s;
+}
+
+.card__component:hover .progress__bar {
+  bottom: -2px;
+  left: 0;
+  opacity: 1;
+}
+
+.progress-bar {
+  background: var(--primary-color);
+  color: var(--primary-dark-color);
+
+  font-size: 10px;
+  font-weight: bold;
+
+  height: 13px;
+}
+
+.downward__link {
+  width: 50px;
+  height: 50px;
+
+  border: 2px solid var(--primary-color);
+  color: var(--primary-color);
+
+  border-radius: 50%;
+  transition: all 0.5s;
+}
+
+.downward__link:hover {
+  background: var(--primary-color);
+  color: var(--primary-dark-color);
+}
+
+#portfolio-section {
+  background: url("../img/backgroundCurve.png") var(--secondary-color) no-repeat;
+  background-position: left bottom;
+  background-size: 100% 80%;
+
+  position: relative;
+}
+
+.top__cornor__decoration {
+  position: absolute;
+  top: 7%;
+  right: 5%;
+}
+
+@media screen and (max-width: 900px) {
+  #portfolio-section {
+    background-image: none;
+  }
+}
